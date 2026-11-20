@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Легко — найти работу</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F6F5F1}
+a{color:#121212}a:hover{color:#3d3d3a}
+.cat:hover{border-color:#121212 !important}
+.btn:hover{opacity:.88}
+</style>
+
+</head>
+<body>
+<div style="font-family: 'Manrope', system-ui, sans-serif; color: #121212; background: #F6F5F1; min-height: 100vh">
+
+<!-- NAV -->
+<header style="max-width: 1200px; margin: 0 auto; padding: 24px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<a href="#top" style="display: flex; align-items: center; gap: 10px; text-decoration: none">
+<span style="width: 36px; height: 36px; border-radius: 10px; background: #C6F432; display: flex; align-items: center; justify-content: center">
+<svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#121212" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg>
+</span>
+<span style="font-family: 'Unbounded', sans-serif; font-weight: 700; font-size: 20px; letter-spacing: -0.02em">легко</span>
+</a>
+<nav aria-label="Основное меню" style="display: flex; flex-wrap: wrap; align-items: center; gap: 28px; font-size: 15px; font-weight: 500">
+<a href="#jobs" style="text-decoration: none">Вакансии</a>
+<a href="#how" style="text-decoration: none">Как это работает</a>
+<a href="#employers" style="text-decoration: none">Работодателям</a>
+<a class="btn" href="#start" style="text-decoration: none; background: #121212; color: #F6F5F1; padding: 12px 20px; border-radius: 999px; font-weight: 600">Войти</a>
+</nav>
+</header>
+
+<!-- HERO -->
+<section id="top" style="max-width: 1200px; margin: 0 auto; padding: 56px 24px 40px">
+<div style="display: inline-flex; align-items: center; gap: 8px; background: #FFFFFF; border: 1px solid #E4E2DA; border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 600">
+<span style="width: 8px; height: 8px; border-radius: 50%; background: #2E9E5B"></span>
+Вакансии с оплатой каждый день
+</div>
+<h1 style="font-family: 'Unbounded', sans-serif; font-weight: 700; font-size: clamp(40px, 7vw, 88px); line-height: 1.02; letter-spacing: -0.035em; margin: 28px 0 0; max-width: 980px">Найти работу — <span style="background: #C6F432; padding: 0 0.12em; border-radius: 0.12em">легко</span></h1>
+<p style="font-size: clamp(17px, 2vw, 21px); line-height: 1.5; color: #4A4A46; max-width: 620px; margin: 24px 0 0">Курьеры, разнорабочие, уборщики, грузчики и ещё десятки профессий. Без резюме — выберите смену рядом с домом и выходите уже завтра.</p>
+
+<form style="margin-top: 40px; background: #FFFFFF; border: 1px solid #E4E2DA; border-radius: 22px; padding: 10px; display: flex; flex-wrap: wrap; gap: 10px; max-width: 860px; box-shadow: 0 20px 40px -24px rgba(18,18,18,0.18)">
+<label style="flex: 2 1 260px; display: flex; align-items: center; gap: 12px; padding: 0 16px; min-height: 56px; border-radius: 14px; background: #F6F5F1">
+<svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5C5C57" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+<span style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Кем хотите работать</span>
+<input type="text" placeholder="Курьер, уборщик, грузчик…" style="border: 0; background: transparent; outline: none; font: inherit; font-size: 16px; width: 100%; color: #121212">
+</label>
+<label style="flex: 1 1 180px; display: flex; align-items: center; gap: 12px; padding: 0 16px; min-height: 56px; border-radius: 14px; background: #F6F5F1">
+<svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5C5C57" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+<span style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Город</span>
+<input type="text" placeholder="Город или метро" style="border: 0; background: transparent; outline: none; font: inherit; font-size: 16px; width: 100%; color: #121212">
+</label>
+<button class="btn" type="button" style="flex: 0 1 auto; min-height: 56px; padding: 0 28px; border: 0; border-radius: 14px; background: #121212; color: #F6F5F1; font: inherit; font-size: 16px; font-weight: 700; cursor: pointer">Найти работу</button>
+</form>
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; font-size: 14px; color: #4A4A46; align-items: center">
+<span>Часто ищут:</span>
+<a href="#jobs" style="text-decoration: none; border: 1px solid #D6D3C9; border-radius: 999px; padding: 6px 14px; font-weight: 600">курьер пешком</a>
+<a href="#jobs" style="text-decoration: none; border: 1px solid #D6D3C9; border-radius: 999px; padding: 6px 14px; font-weight: 600">подработка на выходные</a>
+<a href="#jobs" style="text-decoration: none; border: 1px solid #D6D3C9; border-radius: 999px; padding: 6px 14px; font-weight: 600">ночные смены</a>
+<a href="#jobs" style="text-decoration: none; border: 1px solid #D6D3C9; border-radius: 999px; padding: 6px 14px; font-weight: 600">без опыта</a>
+</div>
+</section>
+
+<!-- CATEGORIES -->
+<section id="jobs" style="max-width: 1200px; margin: 0 auto; padding: 56px 24px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 16px; margin-bottom: 28px">
+<h2 style="font-family: 'Unbounded', sans-serif; font-weight: 700; font-size: clamp(28px, 4vw, 44px); letter-spacing: -0.03em; margin: 0">Выберите, кем работать</h2>
+<a href="#jobs" style="font-weight: 600; font-size: 15px">Все профессии →</a>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 14px">
+
+<a class="cat" href="#jobs" style="text-decoration: none; background: #FFFFFF; border: 1px solid #E4E2DA; border-radius: 20px; padding: 24px; display: flex; flex-direction: column; gap: 28px; min-height: 150px">
+<span style="width: 48px; height: 48px; border-radius: 14px; background: #C6F432; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#121212" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="17" r="3"/><circle cx="18" cy="17" r="3"/><path d="M6 17l4-8h5l3 8M10 9V6h3"/></svg></span>
+<span><span style="display: block; font-size: 19px; font-weight: 700">Курьер</span><span style="display: block; font-size: 14px; color: #5C5C57; margin-top: 4px">Пешком, на велосипеде, на авто</span></span>
+</a>
+
+<a class="cat" href="#jobs" style="text-decoration: none; background: #FFFFFF; border: 1px solid #E4E2DA; border-radius: 20px; padding: 24px; display: flex; flex-direction: column; gap: 28px; min-height: 150px">
+<span style="width: 48px; height: 48px; border-radius: 14px; background: #ECEAE3; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#121212" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4l6 6-3 3-6-6zM11 7L3 15l3 3 8-8"/><path d="M3 21h8"/></svg></span>
+<span><span style="display: block; font-size: 19px; font-weight: 700">Разнорабочий</span><span style="display: block; font-size: 14px; color: #5C5C57; margin-top: 4px">Стройка, ремонт, монтаж</span></span>
+</a>
+
+<a class="cat" href="#jobs" style="text-decoration: none; background: #FFFFFF; border: 1px solid #E4E2DA; border-radius: 20px; padding: 24px; display: flex; flex-direction: column; gap: 28px; min-height: 150px">
+<span style="width: 48px; height: 48px; border-radius: 14px; background: #ECEAE3; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#121212" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5L18 18M18 6l-2.5 2.5M8.5 15.5L6 18"/></svg></span>
+<span><span style="display: block; font-size: 19px; font-weight: 700">Уборщик</span><span style="display: block; font-size: 14px; color: #5C5C57; margin-top: 4px">Офисы, ТЦ, квартиры, склады</span></span>
+</a>
+
+<a class="cat" href="#jobs" style="text-decoration: none; background: #FFFFFF; border: 1px solid #E4E2DA; border-radius: 20px; padding: 24px; display: flex; flex-direction: column; gap: 28px; min-height: 150px">
+<span style="width: 48px; height: 48px; border-radius: 14px; background: #ECEAE3; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#121212" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8l9-5 9 5v8l-9 5-9-5z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg></span>
+<span><span style="display: block; font-size: 19px; font-weight: 700">Грузчик</span><span style="display: block; font-size: 14px; color: #5C5C57; margin-top: 4px">Переезды, разгрузка фур</span></span>
+</a>
+
+<a class="cat" href="#jobs" style="text-decoration: none; background: #FFFFFF; border: 1px solid #E4E2DA; border-radius: 20px; padding: 24px; display: flex; flex-direction: column; gap: 28px; min-height: 150px">
+<span style="width: 48px; height: 48px; border-radius: 14px; background: #ECEAE3; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#121212" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h2l2.5 11h11L21 7H6.5"/><circle cx="9" cy="19.5" r="1.5"/><circle cx="17" cy="19.5" r="1.5"/></svg></span>
+<span><span style="display: block; font-size: 19px; font-weight: 700">Сборщик заказов</span><span style="display: block; font-size: 14px; color: #5C5C57; margin-top: 4px">Склады и дарксторы</span></span>
+</a>
+
+<a class="cat" href="#jobs" style="text-decoration: none; background: #FFFFFF; border: 1px solid #E4E2DA; border-radius: 20px; padding: 24px; display: flex; flex-direction: column; gap: 28px; min-height: 150px">
+<span style="width: 48px; height: 48px; border-radius: 14px; background: #ECEAE3; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#121212" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 7h8M8 11h8M8 15h5"/></svg></span>
+<span><span style="display: block; font-size: 19px; font-weight: 700">Кладовщик</span><span style="display: block; font-size: 14px; color: #5C5C57; margin-top: 4px">Приёмка, учёт, выдача</span></span>
+</a>
+
+<a class="cat" href="#jobs" style="text-decoration: none; background: #FFFFFF; border: 1px solid #E4E2DA; border-radius: 20px; padding: 24px; display: flex; flex-direction: column; gap: 28px; min-height: 150px">
+<span style="width: 48px; height: 48px; border-radius: 14px; background: #ECEAE3; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#121212" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c3 4 6 7 6 11a6 6 0 0 1-12 0c0-4 3-7 6-11z"/></svg></span>
+<span><span style="display: block; font-size: 19px; font-weight: 700">Мойщик</span><span style="display: block; font-size: 14px; color: #5C5C57; margin-top: 4px">Посуда, автомойка</span></span>
+</a>
+
+<a class="cat" href="#jobs" style="text-decoration: none; background: #121212; color: #F6F5F1; border: 1px solid #121212; border-radius: 20px; padding: 24px; display: flex; flex-direction: column; justify-content: space-between; gap: 28px; min-height: 150px">
+<span style="font-family: 'Unbounded', sans-serif; font-size: 22px; font-weight: 700; line-height: 1.15">Ещё профессии</span>
+<span style="font-size: 14px; color: #CFCDC5">Промоутер, охранник, повар, дворник и другие →</span>
+</a>
+
+</div>
+</section>
+
+<!-- HOW -->
+<section id="how" style="max-width: 1200px; margin: 0 auto; padding: 56px 24px">
+<div style="background: #FFFFFF; border: 1px solid #E4E2DA; border-radius: 32px; padding: clamp(28px, 5vw, 64px)">
+<h2 style="font-family: 'Unbounded', sans-serif; font-weight: 700; font-size: clamp(28px, 4vw, 44px); letter-spacing: -0.03em; margin: 0; max-width: 640px">Три шага до первой смены</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 32px; margin-top: 44px">
+<div style="display: flex; flex-direction: column; gap: 14px">
+<span style="font-family: 'Unbounded', sans-serif; font-size: 15px; font-weight: 700; width: 44px; height: 44px; border-radius: 50%; background: #C6F432; display: flex; align-items: center; justify-content: center">1</span>
+<h3 style="font-size: 21px; margin: 6px 0 0">Выберите работу</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.55; color: #4A4A46">Фильтр по профессии, району и графику. Видно оплату и адрес сразу.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 14px">
+<span style="font-family: 'Unbounded', sans-serif; font-size: 15px; font-weight: 700; width: 44px; height: 44px; border-radius: 50%; background: #C6F432; display: flex; align-items: center; justify-content: center">2</span>
+<h3 style="font-size: 21px; margin: 6px 0 0">Откликнитесь в один тап</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.55; color: #4A4A46">Без резюме и сопроводительных писем — достаточно имени и телефона.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 14px">
+<span style="font-family: 'Unbounded', sans-serif; font-size: 15px; font-weight: 700; width: 44px; height: 44px; border-radius: 50%; background: #C6F432; display: flex; align-items: center; justify-content: center">3</span>
+<h3 style="font-size: 21px; margin: 6px 0 0">Выходите и получайте оплату</h3>
+<p style="margin: 0; font-size: 16px; line-height: 1.55; color: #4A4A46">Работодатель подтверждает смену — деньги приходят на карту.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- VACANCIES -->
+<section style="max-width: 1200px; margin: 0 auto; padding: 56px 24px">
+<h2 style="font-family: 'Unbounded', sans-serif; font-weight: 700; font-size: clamp(28px, 4vw, 44px); letter-spacing: -0.03em; margin: 0 0 28px">Свежие вакансии рядом</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px">
+
+<article style="background: #FFFFFF; border: 1px solid #E4E2DA; border-radius: 20px; padding: 24px; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; flex-wrap: wrap; gap: 8px"><span style="font-size: 13px; font-weight: 700; background: #C6F432; padding: 5px 10px; border-radius: 8px">Оплата ежедневно</span><span style="font-size: 13px; font-weight: 600; background: #F0EEE7; padding: 5px 10px; border-radius: 8px">Без опыта</span></div>
+<h3 style="margin: 0; font-size: 20px">Пеший курьер</h3>
+<p style="margin: 0; font-size: 15px; color: #4A4A46">[КОМПАНИЯ] · [РАЙОН]</p>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; margin-top: auto">
+<span style="font-family: 'Unbounded', sans-serif; font-size: 18px; font-weight: 700">от [СУММА] ₽ / смена</span>
+<a class="btn" href="#start" style="text-decoration: none; background: #121212; color: #F6F5F1; padding: 12px 18px; border-radius: 12px; font-weight: 600; font-size: 15px">Откликнуться</a>
+</div>
+</article>
+
+<article style="background: #FFFFFF; border: 1px solid #E4E2DA; border-radius: 20px; padding: 24px; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; flex-wrap: wrap; gap: 8px"><span style="font-size: 13px; font-weight: 600; background: #F0EEE7; padding: 5px 10px; border-radius: 8px">Вахта / смены</span><span style="font-size: 13px; font-weight: 600; background: #F0EEE7; padding: 5px 10px; border-radius: 8px">Спецодежда</span></div>
+<h3 style="margin: 0; font-size: 20px">Разнорабочий на объект</h3>
+<p style="margin: 0; font-size: 15px; color: #4A4A46">[КОМПАНИЯ] · [РАЙОН]</p>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; margin-top: auto">
+<span style="font-family: 'Unbounded', sans-serif; font-size: 18px; font-weight: 700">от [СУММА] ₽ / смена</span>
+<a class="btn" href="#start" style="text-decoration: none; background: #121212; color: #F6F5F1; padding: 12px 18px; border-radius: 12px; font-weight: 600; font-size: 15px">Откликнуться</a>
+</div>
+</article>
+
+<article style="background: #FFFFFF; border: 1px solid #E4E2DA; border-radius: 20px; padding: 24px; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; flex-wrap: wrap; gap: 8px"><span style="font-size: 13px; font-weight: 600; background: #F0EEE7; padding: 5px 10px; border-radius: 8px">Утро или вечер</span><span style="font-size: 13px; font-weight: 600; background: #F0EEE7; padding: 5px 10px; border-radius: 8px">Рядом с метро</span></div>
+<h3 style="margin: 0; font-size: 20px">Уборщица в бизнес-центр</h3>
+<p style="margin: 0; font-size: 15px; color: #4A4A46">[КОМПАНИЯ] · [РАЙОН]</p>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; margin-top: auto">
+<span style="font-family: 'Unbounded', sans-serif; font-size: 18px; font-weight: 700">от [СУММА] ₽ / смена</span>
+<a class="btn" href="#start" style="text-decoration: none; background: #121212; color: #F6F5F1; padding: 12px 18px; border-radius: 12px; font-weight: 600; font-size: 15px">Откликнуться</a>
+</div>
+</article>
+
+</div>
+</section>
+
+<!-- CTA -->
+<section id="start" style="max-width: 1200px; margin: 0 auto; padding: 56px 24px 32px">
+<div style="background: #121212; color: #F6F5F1; border-radius: 32px; padding: clamp(32px, 6vw, 72px); display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 32px">
+<div style="flex: 1 1 420px">
+<h2 style="font-family: 'Unbounded', sans-serif; font-weight: 700; font-size: clamp(30px, 5vw, 56px); line-height: 1.05; letter-spacing: -0.03em; margin: 0">Работа ждёт.<br>Начните сегодня.</h2>
+<p style="font-size: 18px; color: #CFCDC5; margin: 20px 0 0; max-width: 460px">Зарегистрируйтесь за минуту и получайте подходящие смены первыми.</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a class="btn" href="#top" style="text-decoration: none; background: #C6F432; color: #121212; padding: 18px 28px; border-radius: 16px; font-weight: 700; font-size: 17px">Найти работу</a>
+<a id="employers" href="#top" style="text-decoration: none; border: 1px solid #5C5C57; color: #F6F5F1; padding: 18px 28px; border-radius: 16px; font-weight: 600; font-size: 17px">Я работодатель</a>
+</div>
+</div>
+</section>
+
+<footer style="max-width: 1200px; margin: 0 auto; padding: 24px 24px 48px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; font-size: 14px; color: #5C5C57">
+<span>© легко, 2026</span>
+<span style="display: flex; flex-wrap: wrap; gap: 24px"><a href="#top" style="color: #5C5C57">Помощь</a><a href="#top" style="color: #5C5C57">Политика конфиденциальности</a></span>
+</footer>
+
+</div>
+</body>
+</html>
